@@ -41,7 +41,7 @@ void MissingNumber(int array[], int size){
     
     siguiente++;
     
-    if(siguiente %2 != 0 ||siguiente < 0)
+    if(siguiente %2 != 0)
         siguiente ++;
     
     cout<<siguiente;
